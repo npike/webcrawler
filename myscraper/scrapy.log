@@ -1,0 +1,645 @@
+2015-03-19 11:30:19-0700 [scrapy] INFO: Scrapy 0.24.5 started (bot: myscraper)
+2015-03-19 11:30:19-0700 [scrapy] INFO: Optional features available: ssl, http11
+2015-03-19 11:30:19-0700 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'myscraper.spiders', 'SPIDER_MODULES': ['myscraper.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'myscraper'}
+2015-03-19 11:30:19-0700 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-03-19 11:30:19-0700 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-03-19 11:30:19-0700 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-03-19 11:30:19-0700 [scrapy] INFO: Enabled item pipelines: 
+2015-03-19 11:30:19-0700 [EasterSpider] INFO: Spider opened
+2015-03-19 11:30:19-0700 [EasterSpider] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-19 11:30:19-0700 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2015-03-19 11:30:19-0700 [scrapy] DEBUG: Web service listening on 127.0.0.1:6081
+2015-03-19 11:30:19-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com> (referer: None)
+2015-03-19 11:30:19-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.google.com': <GET https://www.google.com/accounts/ServiceLogin?continue=https%3A%2F%2Fdevelopers.google.com%2F&ltmpl=&passive=true&service=ahsid>
+2015-03-19 11:30:19-0700 [EasterSpider] DEBUG: Filtered offsite request to 'events.google.com': <GET http://events.google.com/io2015/offsite?utm_campaign=1&utm_medium=banner&utm_source=DevSite>
+2015-03-19 11:30:19-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.youtube.com': <GET https://www.youtube.com/user/GoogleDevelopers>
+2015-03-19 11:30:19-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googledevelopers.blogspot.com': <GET http://googledevelopers.blogspot.com/>
+2015-03-19 11:30:19-0700 [EasterSpider] DEBUG: Filtered offsite request to 'plus.google.com': <GET https://plus.google.com/+GoogleDevelopers>
+2015-03-19 11:30:19-0700 [EasterSpider] DEBUG: Filtered offsite request to 'developer.android.com': <GET https://developer.android.com/>
+2015-03-19 11:30:19-0700 [EasterSpider] DEBUG: Filtered offsite request to 'cloud.google.com': <GET https://cloud.google.com/docs/>
+2015-03-19 11:30:20-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/> (referer: https://developers.google.com)
+2015-03-19 11:30:20-0700 [EasterSpider] DEBUG: Filtered duplicate request: <GET https://developers.google.com/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-03-19 11:30:20-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/site-terms> from <GET https://developers.google.com/site-terms/>
+2015-03-19 11:30:20-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/wallet/> from <GET https://developers.google.com/commerce/wallet/>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/youtube/> (referer: https://developers.google.com)
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'youtube-gallery.appspot.com': <GET http://youtube-gallery.appspot.com/>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'gdata.youtube.com': <GET http://gdata.youtube.com/demo/index.html>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'stackoverflow.com': <GET http://stackoverflow.com/questions/ask?tags=youtube-api>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'code.google.com': <GET https://code.google.com/p/gdata-issues/issues/entry?template=YouTube+%28Defect+Report%29>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'apiblog.youtube.com': <GET http://apiblog.youtube.com/>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'google.com': <GET http://google.com/+YouTubeDev>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'groups.google.com': <GET https://groups.google.com/forum/>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'twitter.com': <GET https://twitter.com/YouTubeDev>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'creativecommons.org': <GET http://creativecommons.org/licenses/by/3.0/>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.apache.org': <GET http://www.apache.org/licenses/LICENSE-2.0>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/search/> (referer: https://developers.google.com)
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'insidesearch.blogspot.com': <GET http://insidesearch.blogspot.com/>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/maps/> (referer: https://developers.google.com)
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googlegeodevelopers.blogspot.com': <GET http://googlegeodevelopers.blogspot.com/>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.morethanamap.com': <GET http://www.morethanamap.com/>
+2015-03-19 11:30:21-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/+/> (referer: https://developers.google.com)
+2015-03-19 11:30:22-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/> (referer: https://developers.google.com)
+2015-03-19 11:30:22-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googleappsdeveloper.blogspot.com': <GET http://googleappsdeveloper.blogspot.com/>
+2015-03-19 11:30:22-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET http://developer.chrome.com/> from <GET https://developers.google.com/chrome/>
+2015-03-19 11:30:22-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/cast/> (referer: https://developers.google.com)
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/analytics/> (referer: https://developers.google.com)
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/advertise/> (referer: https://developers.google.com)
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'analytics-api-samples.googlecode.com': <GET http://analytics-api-samples.googlecode.com/svn/trunk/javadocs/index.html>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'github.com': <GET https://github.com/googleanalytics/google-analytics-plugin-for-unity/issues>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'ga-dev-tools.appspot.com': <GET http://ga-dev-tools.appspot.com/explorer/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/women-techmakers/> (referer: https://developers.google.com)
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'docs.google.com': <GET https://docs.google.com/a/psycle.com/forms/d/1ILhj6JsqmfIBUNJRRPyLL9MPokarlOzQ65iyfkLE83Y/viewform>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.railsbridge.org': <GET http://www.railsbridge.org/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.techladymafia.com': <GET http://www.techladymafia.com/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.girldevelopit.com': <GET http://www.girldevelopit.com/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.jduchess.org': <GET http://www.jduchess.org/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.pyladies.com': <GET http://www.pyladies.com/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.wwcode.org': <GET http://www.wwcode.org/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.hackbrightacademy.com': <GET http://www.hackbrightacademy.com/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.railsgirls.com': <GET http://www.railsgirls.com/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.femgineer.com': <GET http://www.femgineer.com/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'sheplusplus.stanford.edu': <GET http://sheplusplus.stanford.edu/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'passion-projects.github.com': <GET http://passion-projects.github.com/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.anitaborg.org': <GET http://www.anitaborg.org/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'societyofwomenengineers.swe.org': <GET http://societyofwomenengineers.swe.org/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.adainitiative.org': <GET http://www.adainitiative.org/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.bayareagirlgeekdinners.com': <GET http://www.bayareagirlgeekdinners.com/>
+2015-03-19 11:30:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.ncwit.org': <GET https://www.ncwit.org/>
+2015-03-19 11:30:24-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/experts/> (referer: https://developers.google.com)
+2015-03-19 11:30:24-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/careers/> (referer: https://developers.google.com)
+2015-03-19 11:30:24-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/groups/> (referer: https://developers.google.com)
+2015-03-19 11:30:24-0700 [EasterSpider] DEBUG: Filtered offsite request to 'history.google.com': <GET https://history.google.com/>
+2015-03-19 11:30:25-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/showcase/> (referer: https://developers.google.com)
+2015-03-19 11:30:25-0700 [EasterSpider] ERROR: Spider error processing <GET https://developers.google.com/showcase/>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spiders/crawl.py", line 73, in _parse_response
+	    for request_or_item in self._requests_to_follow(response):
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spiders/crawl.py", line 52, in _requests_to_follow
+	    links = [l for l in rule.link_extractor.extract_links(response) if l not in seen]
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/linkextractors/sgml.py", line 119, in extract_links
+	    links = self._extract_links(body, response.url, response.encoding, base_url)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/linkextractor.py", line 94, in _extract_links
+	    return self.link_extractor._extract_links(*args, **kwargs)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/linkextractors/sgml.py", line 28, in _extract_links
+	    self.feed(response_text)
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sgmllib.py", line 104, in feed
+	    self.goahead(0)
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sgmllib.py", line 174, in goahead
+	    k = self.parse_declaration(i)
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/markupbase.py", line 98, in parse_declaration
+	    decltype, j = self._scan_name(j, i)
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/markupbase.py", line 392, in _scan_name
+	    % rawdata[declstartpos:declstartpos+20])
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sgmllib.py", line 111, in error
+	    raise SGMLParseError(message)
+	sgmllib.SGMLParseError: expected name token at '<!\\\\])/g,"\\\\$1").rep'
+	
+2015-03-19 11:30:25-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/site-terms> (referer: https://developers.google.com)
+2015-03-19 11:30:25-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/wallet/> (referer: https://developers.google.com)
+2015-03-19 11:30:25-0700 [EasterSpider] DEBUG: Filtered offsite request to 'support.google.com': <GET https://support.google.com/payments/answer/75724?hl=en&rd=1>
+2015-03-19 11:30:25-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googlecommerce.blogspot.com': <GET http://googlecommerce.blogspot.com/>
+2015-03-19 11:30:25-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/community/> (referer: https://developers.google.com)
+2015-03-19 11:30:26-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/site-policies> (referer: https://developers.google.com/youtube/)
+2015-03-19 11:30:26-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/search/web/> (referer: https://developers.google.com/search/)
+2015-03-19 11:30:27-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/academy/> (referer: https://developers.google.com/maps/)
+2015-03-19 11:30:27-0700 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2015-03-19 11:30:27-0700 [EasterSpider] INFO: Closing spider (shutdown)
+2015-03-19 11:30:27-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/+/domains/> (referer: https://developers.google.com/+/)
+2015-03-19 11:30:27-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developer.chrome.com/> from <GET http://developer.chrome.com/>
+2015-03-19 11:30:28-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/reseller/> (referer: https://developers.google.com/google-apps/)
+2015-03-19 11:30:28-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/cast/docs/developers> from <GET https://developers.google.com/cast/docs/developers.html>
+2015-03-19 11:30:28-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/cast/docs/release-notes> (referer: https://developers.google.com/cast/)
+2015-03-19 11:30:28-0700 [EasterSpider] DEBUG: Filtered offsite request to 'developer.mozilla.org': <GET https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity>
+2015-03-19 11:30:29-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/analytics/devguides/reporting/> from <GET https://developers.google.com/analytics/devguides/reporting>
+2015-03-19 11:30:29-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/experts/people/ismael-faro> from <GET https://developers.google.com/experts/people/ismael-faro.html>
+2015-03-19 11:30:29-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/analytics/devguides/config/> from <GET https://developers.google.com/analytics/devguides/config>
+2015-03-19 11:30:29-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/experts/people/carlos-fern-ndez> from <GET https://developers.google.com/experts/people/carlos-fern-ndez.html>
+2015-03-19 11:30:30-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/groups/',this.subPath_,> (referer: https://developers.google.com/groups/)
+2015-03-19 11:30:30-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/groups/',this.subPath_,>: HTTP status code is not handled or not allowed
+2015-03-19 11:30:30-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/groups/%22+Ca(k)+%22> (referer: https://developers.google.com/groups/)
+2015-03-19 11:30:30-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/groups/%22+Ca(k)+%22>: HTTP status code is not handled or not allowed
+2015-03-19 11:30:30-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/site-terms> from <GET http://developers.google.com/site-terms>
+2015-03-19 11:30:30-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/site-policies> from <GET https://developers.google.com/readme/policies>
+2015-03-19 11:30:31-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/wallet/dashboard> (referer: https://developers.google.com/wallet/)
+2015-03-19 11:30:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'wallet.google.com': <GET https://wallet.google.com/merchant/instantbuy/signup>
+2015-03-19 11:30:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'wallet-web.sandbox.google.com': <GET https://wallet-web.sandbox.google.com/merchant/instantbuy/signup>
+2015-03-19 11:30:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'sandbox.google.com': <GET https://sandbox.google.com/checkout/inapp/merchant/settings.html>
+2015-03-19 11:30:31-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/site-policies> from <GET https://developers.google.com/readme/policies/>
+2015-03-19 11:30:31-0700 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2015-03-19 11:32:02-0700 [scrapy] INFO: Scrapy 0.24.5 started (bot: myscraper)
+2015-03-19 11:32:02-0700 [scrapy] INFO: Optional features available: ssl, http11
+2015-03-19 11:32:02-0700 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'myscraper.spiders', 'SPIDER_MODULES': ['myscraper.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'myscraper'}
+2015-03-19 11:32:02-0700 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-03-19 11:32:02-0700 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-03-19 11:32:02-0700 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-03-19 11:32:02-0700 [scrapy] INFO: Enabled item pipelines: 
+2015-03-19 11:32:02-0700 [EasterSpider] INFO: Spider opened
+2015-03-19 11:32:02-0700 [EasterSpider] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-03-19 11:32:02-0700 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2015-03-19 11:32:02-0700 [scrapy] DEBUG: Web service listening on 127.0.0.1:6081
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com> (referer: None)
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.google.com': <GET https://www.google.com/accounts/ServiceLogin?continue=https%3A%2F%2Fdevelopers.google.com%2F&ltmpl=&passive=true&service=ahsid>
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Filtered offsite request to 'events.google.com': <GET http://events.google.com/io2015/offsite?utm_campaign=1&utm_medium=banner&utm_source=DevSite>
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.youtube.com': <GET https://www.youtube.com/user/GoogleDevelopers>
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googledevelopers.blogspot.com': <GET http://googledevelopers.blogspot.com/>
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Filtered offsite request to 'plus.google.com': <GET https://plus.google.com/+GoogleDevelopers>
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Filtered offsite request to 'developer.android.com': <GET https://developer.android.com/>
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Filtered offsite request to 'cloud.google.com': <GET https://cloud.google.com/docs/>
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/> (referer: https://developers.google.com)
+2015-03-19 11:32:02-0700 [EasterSpider] DEBUG: Filtered duplicate request: <GET https://developers.google.com/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/site-terms> from <GET https://developers.google.com/site-terms/>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/youtube/> (referer: https://developers.google.com)
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'youtube-gallery.appspot.com': <GET http://youtube-gallery.appspot.com/>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'gdata.youtube.com': <GET http://gdata.youtube.com/demo/index.html>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'stackoverflow.com': <GET http://stackoverflow.com/questions/ask?tags=youtube-api>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'code.google.com': <GET https://code.google.com/p/gdata-issues/issues/entry?template=YouTube+%28Defect+Report%29>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'apiblog.youtube.com': <GET http://apiblog.youtube.com/>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'google.com': <GET http://google.com/+YouTubeDev>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'groups.google.com': <GET https://groups.google.com/forum/>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'twitter.com': <GET https://twitter.com/YouTubeDev>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'creativecommons.org': <GET http://creativecommons.org/licenses/by/3.0/>
+2015-03-19 11:32:03-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.apache.org': <GET http://www.apache.org/licenses/LICENSE-2.0>
+2015-03-19 11:32:04-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/wallet/> from <GET https://developers.google.com/commerce/wallet/>
+2015-03-19 11:32:04-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/search/> (referer: https://developers.google.com)
+2015-03-19 11:32:04-0700 [EasterSpider] DEBUG: Filtered offsite request to 'insidesearch.blogspot.com': <GET http://insidesearch.blogspot.com/>
+2015-03-19 11:32:04-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/maps/> (referer: https://developers.google.com)
+2015-03-19 11:32:04-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googlegeodevelopers.blogspot.com': <GET http://googlegeodevelopers.blogspot.com/>
+2015-03-19 11:32:04-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.morethanamap.com': <GET http://www.morethanamap.com/>
+2015-03-19 11:32:04-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/+/> (referer: https://developers.google.com)
+2015-03-19 11:32:05-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/> (referer: https://developers.google.com)
+2015-03-19 11:32:05-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googleappsdeveloper.blogspot.com': <GET http://googleappsdeveloper.blogspot.com/>
+2015-03-19 11:32:05-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET http://developer.chrome.com/> from <GET https://developers.google.com/chrome/>
+2015-03-19 11:32:05-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/cast/> (referer: https://developers.google.com)
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/analytics/> (referer: https://developers.google.com)
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'analytics-api-samples.googlecode.com': <GET http://analytics-api-samples.googlecode.com/svn/trunk/javadocs/index.html>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'github.com': <GET https://github.com/googleanalytics/google-analytics-plugin-for-unity/issues>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'ga-dev-tools.appspot.com': <GET http://ga-dev-tools.appspot.com/explorer/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/advertise/> (referer: https://developers.google.com)
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/women-techmakers/> (referer: https://developers.google.com)
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'docs.google.com': <GET https://docs.google.com/a/psycle.com/forms/d/1ILhj6JsqmfIBUNJRRPyLL9MPokarlOzQ65iyfkLE83Y/viewform>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.railsbridge.org': <GET http://www.railsbridge.org/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.techladymafia.com': <GET http://www.techladymafia.com/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.girldevelopit.com': <GET http://www.girldevelopit.com/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.jduchess.org': <GET http://www.jduchess.org/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.pyladies.com': <GET http://www.pyladies.com/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.wwcode.org': <GET http://www.wwcode.org/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.hackbrightacademy.com': <GET http://www.hackbrightacademy.com/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.railsgirls.com': <GET http://www.railsgirls.com/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.femgineer.com': <GET http://www.femgineer.com/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'sheplusplus.stanford.edu': <GET http://sheplusplus.stanford.edu/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'passion-projects.github.com': <GET http://passion-projects.github.com/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.anitaborg.org': <GET http://www.anitaborg.org/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'societyofwomenengineers.swe.org': <GET http://societyofwomenengineers.swe.org/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.adainitiative.org': <GET http://www.adainitiative.org/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.bayareagirlgeekdinners.com': <GET http://www.bayareagirlgeekdinners.com/>
+2015-03-19 11:32:06-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.ncwit.org': <GET https://www.ncwit.org/>
+2015-03-19 11:32:07-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/experts/> (referer: https://developers.google.com)
+2015-03-19 11:32:07-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/careers/> (referer: https://developers.google.com)
+2015-03-19 11:32:07-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/groups/> (referer: https://developers.google.com)
+2015-03-19 11:32:07-0700 [EasterSpider] DEBUG: Filtered offsite request to 'history.google.com': <GET https://history.google.com/>
+2015-03-19 11:32:08-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/showcase/> (referer: https://developers.google.com)
+2015-03-19 11:32:08-0700 [EasterSpider] ERROR: Spider error processing <GET https://developers.google.com/showcase/>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spiders/crawl.py", line 73, in _parse_response
+	    for request_or_item in self._requests_to_follow(response):
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/spiders/crawl.py", line 52, in _requests_to_follow
+	    links = [l for l in rule.link_extractor.extract_links(response) if l not in seen]
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/linkextractors/sgml.py", line 119, in extract_links
+	    links = self._extract_links(body, response.url, response.encoding, base_url)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/linkextractor.py", line 94, in _extract_links
+	    return self.link_extractor._extract_links(*args, **kwargs)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/contrib/linkextractors/sgml.py", line 28, in _extract_links
+	    self.feed(response_text)
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sgmllib.py", line 104, in feed
+	    self.goahead(0)
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sgmllib.py", line 174, in goahead
+	    k = self.parse_declaration(i)
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/markupbase.py", line 98, in parse_declaration
+	    decltype, j = self._scan_name(j, i)
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/markupbase.py", line 392, in _scan_name
+	    % rawdata[declstartpos:declstartpos+20])
+	  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sgmllib.py", line 111, in error
+	    raise SGMLParseError(message)
+	sgmllib.SGMLParseError: expected name token at '<!\\\\])/g,"\\\\$1").rep'
+	
+2015-03-19 11:32:08-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/site-terms> (referer: https://developers.google.com)
+2015-03-19 11:32:08-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/community/> (referer: https://developers.google.com)
+2015-03-19 11:32:08-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/wallet/> (referer: https://developers.google.com)
+2015-03-19 11:32:08-0700 [EasterSpider] DEBUG: Filtered offsite request to 'support.google.com': <GET https://support.google.com/payments/answer/75724?hl=en&rd=1>
+2015-03-19 11:32:08-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googlecommerce.blogspot.com': <GET http://googlecommerce.blogspot.com/>
+2015-03-19 11:32:09-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/site-policies> (referer: https://developers.google.com/youtube/)
+2015-03-19 11:32:09-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://console.developers.google.com/project/'+b.toString()+'/apiui/credential> from <GET http://console.developers.google.com/project/'+b.toString()+'/apiui/credential>
+2015-03-19 11:32:09-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/project/'%2Bb.toString()%2B'/apiui/credential&ltmpl=cloudconsole> from <GET https://console.developers.google.com/project/'+b.toString()+'/apiui/credential>
+2015-03-19 11:32:09-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/search/web/> (referer: https://developers.google.com/search/)
+2015-03-19 11:32:09-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2Fproject%2F%27%2Bb.toString%28%29%2B%27%2Fapiui%2Fcredential&ltmpl=cloudconsole> from <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/project/'%2Bb.toString()%2B'/apiui/credential&ltmpl=cloudconsole>
+2015-03-19 11:32:09-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/academy/> (referer: https://developers.google.com/maps/)
+2015-03-19 11:32:09-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2Fproject%2F%27%2Bb.toString%28%29%2B%27%2Fapiui%2Fcredential&ltmpl=cloudconsole> (referer: https://developers.google.com/groups/)
+2015-03-19 11:32:09-0700 [EasterSpider] DEBUG: Filtered offsite request to 'accounts.google.com': <GET https://accounts.google.com/RecoverAccount?continue=https%3A%2F%2Fconsole.developers.google.com%2Fproject%2F%27%2Bb.toString%28%29%2B%27%2Fapiui%2Fcredential&service=cloudconsole>
+2015-03-19 11:32:10-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/+/domains/> (referer: https://developers.google.com/+/)
+2015-03-19 11:32:10-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developer.chrome.com/> from <GET http://developer.chrome.com/>
+2015-03-19 11:32:10-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/reseller/> (referer: https://developers.google.com/google-apps/)
+2015-03-19 11:32:11-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/cast/docs/developers> from <GET https://developers.google.com/cast/docs/developers.html>
+2015-03-19 11:32:11-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/analytics/devguides/reporting/> from <GET https://developers.google.com/analytics/devguides/reporting>
+2015-03-19 11:32:11-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/shopping-content/> (referer: https://developers.google.com/advertise/)
+2015-03-19 11:32:12-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/shopping-content/> from <GET https://developers.google.com/shopping-content>
+2015-03-19 11:32:12-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/experts/people/ismael-faro> from <GET https://developers.google.com/experts/people/ismael-faro.html>
+2015-03-19 11:32:12-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/experts/people/carlos-fern-ndez> from <GET https://developers.google.com/experts/people/carlos-fern-ndez.html>
+2015-03-19 11:32:12-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/groups/',this.subPath_,> (referer: https://developers.google.com/groups/)
+2015-03-19 11:32:12-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/groups/',this.subPath_,>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:13-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/groups/%22+Ca(k)+%22> (referer: https://developers.google.com/groups/)
+2015-03-19 11:32:13-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/groups/%22+Ca(k)+%22>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:13-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/site-terms> from <GET http://developers.google.com/site-terms>
+2015-03-19 11:32:13-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/site-policies> from <GET https://developers.google.com/readme/policies>
+2015-03-19 11:32:14-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/site-policies> from <GET https://developers.google.com/readme/policies/>
+2015-03-19 11:32:14-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/schemas/now/cards> (referer: https://developers.google.com/search/web/)
+2015-03-19 11:32:14-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://cloud.google.com/appengine/training> from <GET https://developers.google.com/appengine/training>
+2015-03-19 11:32:15-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/youtube/training/player/chapter-marker/104> (referer: https://developers.google.com/academy/)
+2015-03-19 11:32:15-0700 [EasterSpider] DEBUG: Filtered offsite request to 'gdata-samples.googlecode.com': <GET https://gdata-samples.googlecode.com/svn/trunk/ytplayer/ChapterMarkerPlayer/index.html>
+2015-03-19 11:32:15-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developer.chrome.com/home> from <GET https://developer.chrome.com/>
+2015-03-19 11:32:15-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/+/domains/terms> (referer: https://developers.google.com/+/domains/)
+2015-03-19 11:32:15-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/admin-sdk/reseller/v1/how-tos/how-tos> (referer: https://developers.google.com/admin-sdk/reseller/)
+2015-03-19 11:32:15-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/admin-sdk/reseller/v1/how-tos/how-tos>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:16-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/admin-api-terms> (referer: https://developers.google.com/admin-sdk/reseller/)
+2015-03-19 11:32:16-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://cloud.google.com/appengine/docs/> from <GET https://developers.google.com/appengine/docs/>
+2015-03-19 11:32:16-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/shopping-content/v2/reference/v2/> from <GET https://developers.google.com/shopping-content/v2/reference/v2>
+2015-03-19 11:32:17-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/experts/people/ismael-faro> (referer: https://developers.google.com/experts/)
+2015-03-19 11:32:17-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/experts/people/carlos-fern-ndez> (referer: https://developers.google.com/experts/)
+2015-03-19 11:32:17-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.linkedin.com': <GET https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile>
+2015-03-19 11:32:17-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/shopping-content/v2/terms> (referer: https://developers.google.com/shopping-content/)
+2015-03-19 11:32:18-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/shopping-content/forum/index> (referer: https://developers.google.com/shopping-content/)
+2015-03-19 11:32:18-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/shopping-content/v2/parameters> (referer: https://developers.google.com/shopping-content/)
+2015-03-19 11:32:18-0700 [EasterSpider] DEBUG: Filtered offsite request to 'en.wikipedia.org': <GET http://en.wikipedia.org/wiki/JSONP>
+2015-03-19 11:32:18-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/shopping-content/v2/how-tos/common-errors> (referer: https://developers.google.com/shopping-content/)
+2015-03-19 11:32:18-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/shopping-content/v2/reference/v2/productstatuses/list> (referer: https://developers.google.com/shopping-content/)
+2015-03-19 11:32:19-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/shopping-content/v2/reference/v2/productstatuses/get> (referer: https://developers.google.com/shopping-content/)
+2015-03-19 11:32:19-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://cloud.google.com/appengine/> from <GET https://cloud.google.com/appengine/training>
+2015-03-19 11:32:19-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/schemas/release-notes> (referer: https://developers.google.com/schemas/now/cards)
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/schemas/reference/schema-org-proposals> (referer: https://developers.google.com/schemas/now/cards)
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'schema.org': <GET http://schema.org/>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.w3.org': <GET http://www.w3.org/wiki/WebSchemas/ActivityActions>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'lists.w3.org': <GET http://lists.w3.org/Archives/Public/public-vocabs/>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developer.chrome.com/home> (referer: https://developers.google.com)
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'developer.chrome.com': <GET https://developer.chrome.com/home>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'chromedevtools.github.io': <GET https://chromedevtools.github.io/debugger-protocol-viewer/>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.polymer-project.org': <GET http://www.polymer-project.org/>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.dartlang.org': <GET https://www.dartlang.org/>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.html5rocks.com': <GET http://www.html5rocks.com/en/>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.webplatform.org': <GET http://www.webplatform.org/>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'crbug.com': <GET http://crbug.com/new>
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/+/policies> (referer: https://developers.google.com/+/domains/terms)
+2015-03-19 11:32:20-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googleplusplatform.blogspot.com': <GET http://googleplusplatform.blogspot.com/>
+2015-03-19 11:32:21-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/+/terms> (referer: https://developers.google.com/+/domains/terms)
+2015-03-19 11:32:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'adwords.google.com': <GET http://adwords.google.com/support/aw/bin/answer.py?answer=94230&hl=en>
+2015-03-19 11:32:21-0700 [EasterSpider] DEBUG: Filtered offsite request to 'checkout.google.com': <GET https://checkout.google.com/termsOfService?type=Seller>
+2015-03-19 11:32:21-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://cloud.google.com/appengine/docs> from <GET https://cloud.google.com/appengine/docs/>
+2015-03-19 11:32:21-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/admin-api-list> (referer: https://developers.google.com/admin-sdk/admin-api-terms)
+2015-03-19 11:32:22-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/terms> (referer: https://developers.google.com/admin-sdk/admin-api-terms)
+2015-03-19 11:32:22-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/experts/people/www.ismaelfaro.com> (referer: https://developers.google.com/experts/people/ismael-faro)
+2015-03-19 11:32:22-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/experts/people/www.ismaelfaro.com>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:22-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/experts/people/es.linkedin.com/in/ismaelfaro/> (referer: https://developers.google.com/experts/people/ismael-faro)
+2015-03-19 11:32:22-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/experts/people/es.linkedin.com/in/ismaelfaro/>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:22-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/admin-sdk/groups-migration/> from <GET https://developers.google.com/admin-sdk/groups-migration>
+2015-03-19 11:32:22-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/reports/v1/guides/manage-usage-users> (referer: https://developers.google.com/admin-sdk/admin-api-terms)
+2015-03-19 11:32:23-0700 [EasterSpider] DEBUG: Filtered offsite request to 'wikipedia.org': <GET http://wikipedia.org/wiki/List_of_HTTP_status_codes>
+2015-03-19 11:32:23-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/&ltmpl=cloudconsole> from <GET https://console.developers.google.com/>
+2015-03-19 11:32:23-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/console/help/new#cappingusage> from <GET https://developers.google.com/console/help/capping-usage>
+2015-03-19 11:32:23-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2F&ltmpl=cloudconsole> from <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/&ltmpl=cloudconsole>
+2015-03-19 11:32:23-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2F&ltmpl=cloudconsole> (referer: https://developers.google.com/+/policies)
+2015-03-19 11:32:23-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/accounts/docs/OAuth2WebServer> (referer: https://developers.google.com/shopping-content/v2/parameters)
+2015-03-19 11:32:24-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/accounts/docs/OAuth2> (referer: https://developers.google.com/shopping-content/v2/parameters)
+2015-03-19 11:32:24-0700 [EasterSpider] DEBUG: Filtered offsite request to 'tools.ietf.org': <GET http://tools.ietf.org/html/draft-ietf-oauth-v2-22>
+2015-03-19 11:32:24-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://cloud.google.com/appengine/> (referer: https://developers.google.com/academy/)
+2015-03-19 11:32:24-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googlecloudplatform.blogspot.com': <GET http://googlecloudplatform.blogspot.com/2014/04/feedly-delivers-seamless-experience-to-15-million-users-with-app-engine-and-cloud-storage.html>
+2015-03-19 11:32:24-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/reports/v1/guides/manage-usage-customers> (referer: https://developers.google.com/admin-sdk/admin-api-terms)
+2015-03-19 11:32:24-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/billing/freetrial?redirectPath%3D%252Fstart%252Fappengine&ltmpl=cloudconsole> from <GET https://console.developers.google.com/billing/freetrial?redirectPath=%2Fstart%2Fappengine>
+2015-03-19 11:32:25-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gmail/markup/apps-script-tutorial> from <GET https://developers.google.com/gmail/actions/apps-script-tutorial>
+2015-03-19 11:32:25-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2Fbilling%2Ffreetrial%3FredirectPath%3D%252Fstart%252Fappengine&ltmpl=cloudconsole> from <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/billing/freetrial?redirectPath%3D%252Fstart%252Fappengine&ltmpl=cloudconsole>
+2015-03-19 11:32:25-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gmail/markup/reference/rsvp-action> from <GET https://developers.google.com/gmail/actions/reference/rsvp-action>
+2015-03-19 11:32:25-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2Fbilling%2Ffreetrial%3FredirectPath%3D%252Fstart%252Fappengine&ltmpl=cloudconsole> (referer: https://cloud.google.com/appengine/)
+2015-03-19 11:32:25-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://www.youtube.com/watch/?v=aELff9AOodQ> from <GET https://developers.google.com/live/shows/5035410623299584>
+2015-03-19 11:32:25-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/+/terms> from <GET https://developers.google.com/+/terms.html>
+2015-03-19 11:32:25-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/billing/freetrial?hl%3Den&ltmpl=cloudconsole> from <GET https://console.developers.google.com/billing/freetrial?hl=en>
+2015-03-19 11:32:26-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2Fbilling%2Ffreetrial%3Fhl%3Den&ltmpl=cloudconsole> from <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/billing/freetrial?hl%3Den&ltmpl=cloudconsole>
+2015-03-19 11:32:26-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2Fbilling%2Ffreetrial%3Fhl%3Den&ltmpl=cloudconsole> (referer: https://cloud.google.com/appengine/)
+2015-03-19 11:32:26-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/+/policies> from <GET http://developers.google.com/+/policies>
+2015-03-19 11:32:26-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://cloud.google.com/appengine/docs> (referer: https://developers.google.com/admin-sdk/reseller/)
+2015-03-19 11:32:26-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googlecloudplatform.github.io': <GET http://googlecloudplatform.github.io/appengine-php-wordpress-starter-project/>
+2015-03-19 11:32:26-0700 [EasterSpider] DEBUG: Filtered offsite request to 'wiki.opensocial.org.php': <GET http://wiki.opensocial.org.php/?title=Building_an_OpenSocial_App_with_Google_App_Engine>
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/email-migration/v1/index> (referer: https://developers.google.com/admin-sdk/admin-api-list)
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.faqs.org': <GET http://www.faqs.org/rfcs/rfc822.html>
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Filtered offsite request to 'java.sun.com': <GET http://java.sun.com/products/javamail>
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.wikipedia.org': <GET https://www.wikipedia.org/wiki/Base64>
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Filtered offsite request to 'msdn2.microsoft.com': <GET https://msdn2.microsoft.com/en-us/library/dhx0d524.aspx>
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/start/appengine&ltmpl=cloudconsole> from <GET https://console.developers.google.com/start/appengine>
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/overview> from <GET https://developers.google.com/admin-sdk/overview.html>
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2Fstart%2Fappengine&ltmpl=cloudconsole> from <GET https://www.google.com/accounts/ServiceLogin?service=cloudconsole&passive=true&continue=https://console.developers.google.com/start/appengine&ltmpl=cloudconsole>
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/admin-api-terms> from <GET https://developers.google.com/admin-sdk/admin-api-terms.html>
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=true&continue=https%3A%2F%2Fconsole.developers.google.com%2Fstart%2Fappengine&ltmpl=cloudconsole> (referer: https://cloud.google.com/appengine/docs)
+2015-03-19 11:32:27-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/terms> from <GET http://developers.google.com/terms>
+2015-03-19 11:32:28-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/reports/v1/guides/authorizing> from <GET https://developers.google.com/admin-sdk/reports/v1/guides/authorizing.html>
+2015-03-19 11:32:28-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/console/help/new/> from <GET https://developers.google.com/console/help/new#cappingusage>
+2015-03-19 11:32:29-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/reports/v1/revision-history> (referer: https://developers.google.com/admin-sdk/reports/v1/guides/manage-usage-users)
+2015-03-19 11:32:29-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/accounts/terms> (referer: https://developers.google.com/accounts/docs/OAuth2WebServer)
+2015-03-19 11:32:29-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/api-client-library/javascript/features/authentication> (referer: https://developers.google.com/accounts/docs/OAuth2)
+2015-03-19 11:32:30-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gmail/markup/apps-script-tutorial> (referer: https://developers.google.com/schemas/release-notes)
+2015-03-19 11:32:30-0700 [EasterSpider] DEBUG: Filtered offsite request to 'script.google.com': <GET https://script.google.com/>
+2015-03-19 11:32:30-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gmail/markup/reference/rsvp-action> (referer: https://developers.google.com/schemas/release-notes)
+2015-03-19 11:32:30-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://www.youtube.com/watch/?v=aELff9AOodQ> (referer: https://developer.chrome.com/home)
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/api-client-library/dotnet/guide/aaa_oauth> (referer: https://developers.google.com/accounts/docs/OAuth2WebServer)
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'contrib.google-api-dotnet-client.googlecode.com': <GET http://contrib.google-api-dotnet-client.googlecode.com/hg/1.9.1/documentation/classGoogle_1_1Apis_1_1Auth_1_1OAuth2_1_1UserCredential.html>
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'msdn.microsoft.com': <GET http://msdn.microsoft.com/en-us/library/windowsphone/develop/windows.storage.storagefolder.aspx>
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.nuget.org': <GET https://www.nuget.org/packages/Google.Apis.Drive.v2/>
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/api-client-library/python/guide/aaa_oauth> (referer: https://developers.google.com/accounts/docs/OAuth2WebServer)
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'google-api-python-client.googlecode.com': <GET http://google-api-python-client.googlecode.com/hg/docs/epy/oauth2client-module.html>
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'docs.python.org': <GET http://docs.python.org/library/pickle.html>
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.json.org': <GET http://www.json.org/>
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'bitworking.org': <GET http://bitworking.org/projects/httplib2/doc/html/libhttplib2.html>
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'pypi.python.org': <GET https://pypi.python.org/pypi/argparse>
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/oauthplayground/> (referer: https://developers.google.com/accounts/docs/OAuth2WebServer)
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Filtered offsite request to 'chrome.google.com': <GET https://chrome.google.com/webstore/detail/fcjholccjchiplkbibepfimlaapdaiih>
+2015-03-19 11:32:31-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/+/downloads/> from <GET https://developers.google.com/+/downloads>
+2015-03-19 11:32:32-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/articles/dotnet_client_lib> from <GET https://developers.google.com/gdata/articles/dotnet_client_lib.html>
+2015-03-19 11:32:32-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/articles/python_client_lib> from <GET https://developers.google.com/gdata/articles/python_client_lib.html>
+2015-03-19 11:32:32-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/articles/java_client_lib> from <GET https://developers.google.com/gdata/articles/java_client_lib.html>
+2015-03-19 11:32:33-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/google-apps/provisioning/> from <GET https://developers.google.com/admin-sdk/provisioning>
+2015-03-19 11:32:33-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/email-migration/v1/reference> from <GET https://developers.google.com/admin-sdk/email-migration/v1/reference.html>
+2015-03-19 11:32:33-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/console/help/new/> (referer: https://developers.google.com/shopping-content/v2/parameters)
+2015-03-19 11:32:33-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.emc.com': <GET http://www.emc.com/emc-plus/rsa-labs/standards-initiatives/pkcs12-personal-information-exchange-syntax-standard.htm>
+2015-03-19 11:32:33-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/docs/2.0/basics> from <GET https://developers.google.com/gdata/docs/2.0/basics.html>
+2015-03-19 11:32:33-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/reports/v1/reference/activities> from <GET https://developers.google.com/admin-sdk/reports/v1/reference/activities.html>
+2015-03-19 11:32:34-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/accounts/accounts-api-list> (referer: https://developers.google.com/accounts/terms)
+2015-03-19 11:32:34-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/accounts/docs/OAuth2> from <GET https://developers.google.com/accounts/docs/OAuth2.html>
+2015-03-19 11:32:34-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/apps-script/> from <GET https://developers.google.com/apps-script>
+2015-03-19 11:32:35-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gmail/markup/reference/types/HttpRequestMethod> (referer: https://developers.google.com/gmail/markup/reference/rsvp-action)
+2015-03-19 11:32:35-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gmail/markup/reference/types/Property> (referer: https://developers.google.com/gmail/markup/reference/rsvp-action)
+2015-03-19 11:32:35-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/api-client-library/dotnet/support> (referer: https://developers.google.com/api-client-library/dotnet/guide/aaa_oauth)
+2015-03-19 11:32:36-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/api-client-library/python/support> (referer: https://developers.google.com/api-client-library/python/guide/aaa_oauth)
+2015-03-19 11:32:36-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/api-client-library/python/contribute> (referer: https://developers.google.com/api-client-library/python/guide/aaa_oauth)
+2015-03-19 11:32:36-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gdata/articles/dotnet_client_lib> (referer: https://developers.google.com/admin-sdk/email-migration/v1/index)
+2015-03-19 11:32:36-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.nunit.org': <GET http://www.nunit.org/index.php?p=download>
+2015-03-19 11:32:36-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.mono-project.com': <GET http://www.mono-project.com/>
+2015-03-19 11:32:36-0700 [EasterSpider] DEBUG: Filtered offsite request to 'google-gdata.googlecode.com': <GET http://google-gdata.googlecode.com/svn/docs/Index.html>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gdata/articles/python_client_lib> (referer: https://developers.google.com/admin-sdk/email-migration/v1/index)
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.python.org': <GET http://www.python.org/>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'python.org': <GET http://python.org/download/>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.ubuntu.com': <GET http://www.ubuntu.com/>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gdata/articles/java_client_lib> (referer: https://developers.google.com/admin-sdk/email-migration/v1/index)
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'ant.apache.org': <GET http://ant.apache.org/>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.oracle.com': <GET http://www.oracle.com/technetwork/java/jaf11-139815.html>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'tomcat.apache.org': <GET http://tomcat.apache.org/download-60.cgi>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'developer.apple.com': <GET http://developer.apple.com/java/>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.asceticmonk.com': <GET http://www.asceticmonk.com/blog/?p=388>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.eclipse.org': <GET http://www.eclipse.org/downloads/>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.netbeans.info': <GET http://www.netbeans.info/downloads/index.php>
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/provisioning/> (referer: https://developers.google.com/admin-sdk/email-migration/v1/index)
+2015-03-19 11:32:37-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/api-client-library/python/samples/samples> (referer: https://developers.google.com/api-client-library/python/guide/aaa_oauth)
+2015-03-19 11:32:38-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/api-client-library/python/reference/apis_explorer> (referer: https://developers.google.com/api-client-library/python/guide/aaa_oauth)
+2015-03-19 11:32:38-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://cloud.google.com/pricing/> from <GET https://developers.google.com/cloud/pricing>
+2015-03-19 11:32:38-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gdata/docs/2.0/basics> (referer: https://developers.google.com/admin-sdk/email-migration/v1/index)
+2015-03-19 11:32:38-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www-128.ibm.com': <GET http://www-128.ibm.com/developerworks/xml/library/x-atom10.html>
+2015-03-19 11:32:38-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.xml.com': <GET http://www.xml.com/lpt/a/2004/12/01/restful-web.html>
+2015-03-19 11:32:38-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.xfront.com': <GET http://www.xfront.com/REST-Web-Services.html>
+2015-03-19 11:32:38-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://cloud.google.com/bigquery/sign-up> from <GET https://developers.google.com/bigquery/sign-up>
+2015-03-19 11:32:39-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/accounts/docs/MobileApps> (referer: https://developers.google.com/accounts/accounts-api-list)
+2015-03-19 11:32:39-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://cloud.google.com/appengine/docs/quotas> from <GET https://developers.google.com/appengine/docs/quotas>
+2015-03-19 11:32:40-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/console/help/new> from <GET https://developers.google.com/console/help/console/>
+2015-03-19 11:32:40-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/email-settings/> from <GET https://developers.google.com/google-apps/email-settings/>
+2015-03-19 11:32:40-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gmail/markup/reference/types/Intangible> (referer: https://developers.google.com/gmail/markup/reference/types/Property)
+2015-03-19 11:32:40-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gmail/gmail_inbox_feed> (referer: https://developers.google.com/gmail/markup/reference/types/HttpRequestMethod)
+2015-03-19 11:32:40-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gmail/sidebar_gadgets> (referer: https://developers.google.com/gmail/markup/reference/types/HttpRequestMethod)
+2015-03-19 11:32:40-0700 [EasterSpider] DEBUG: Filtered offsite request to 'wiki.opensocial.org': <GET http://wiki.opensocial.org/index.php?title=Limited_Invalidation>
+2015-03-19 11:32:41-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gmail/contextual_gadgets> (referer: https://developers.google.com/gmail/markup/reference/types/HttpRequestMethod)
+2015-03-19 11:32:41-0700 [EasterSpider] DEBUG: Filtered offsite request to 'jquery.com': <GET http://jquery.com/>
+2015-03-19 11:32:41-0700 [EasterSpider] DEBUG: Filtered offsite request to 'ejohn.org': <GET http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/>
+2015-03-19 11:32:41-0700 [EasterSpider] DEBUG: Filtered offsite request to 'developer.googleapps.com': <GET http://developer.googleapps.com/marketplace>
+2015-03-19 11:32:41-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googleenterprise.blogspot.com': <GET http://googleenterprise.blogspot.com/2010/05/putting-email-in-context-with-gmail.html>
+2015-03-19 11:32:41-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gdata/client-cs> (referer: https://developers.google.com/gdata/articles/dotnet_client_lib)
+2015-03-19 11:32:42-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/webmaster-tools/docs/2.0/developers_guide> (referer: https://developers.google.com/gdata/articles/python_client_lib)
+2015-03-19 11:32:42-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googlewebmastercentral.blogspot.com': <GET http://googlewebmastercentral.blogspot.com/>
+2015-03-19 11:32:42-0700 [EasterSpider] DEBUG: Filtered offsite request to 'sites.google.com': <GET https://sites.google.com/site/webmasterhelpforum/en/office-hours>
+2015-03-19 11:32:42-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/webmaster-tools/docs/2.0/developers_guide_java> (referer: https://developers.google.com/gdata/articles/java_client_lib)
+2015-03-19 11:32:42-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/google-apps/provisioning/auth> from <GET https://developers.google.com/google-apps/provisioning/auth.html>
+2015-03-19 11:32:42-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/google-apps/provisioning/reference%0A> (referer: https://developers.google.com/google-apps/provisioning/)
+2015-03-19 11:32:42-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/google-apps/provisioning/reference%0A>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:43-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://cloud.google.com/pricing/> (referer: https://developers.google.com/console/help/new/)
+2015-03-19 11:32:43-0700 [EasterSpider] DEBUG: Filtered offsite request to 'spreadsheets.google.com': <GET https://spreadsheets.google.com/a/google.com/viewform&authkey=CJ7P_tgM&formkey=dHFKdmVRTXVaTlRaRGpvZjZPaHpXa2c6MQ>
+2015-03-19 11:32:43-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/explorer-help/> (referer: https://developers.google.com/api-client-library/python/reference/apis_explorer)
+2015-03-19 11:32:43-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://cloud.google.com/bigquery/sign-up> (referer: https://developers.google.com/console/help/new/)
+2015-03-19 11:32:44-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gdata/samples> (referer: https://developers.google.com/gdata/docs/2.0/basics)
+2015-03-19 11:32:44-0700 [EasterSpider] DEBUG: Filtered offsite request to 'gadget-doc-examples.googlecode.com': <GET http://gadget-doc-examples.googlecode.com/svn/trunk/opensocial-gadgets/oauth-test.xml>
+2015-03-19 11:32:44-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/articles/using_cURL> from <GET https://developers.google.com/gdata/articles/using_cURL.html>
+2015-03-19 11:32:44-0700 [EasterSpider] DEBUG: Crawled (200) <GET http://developers.google.com/apis-explorer/> (referer: https://developers.google.com/api-client-library/python/reference/apis_explorer)
+2015-03-19 11:32:44-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://cloud.google.com/appengine/docs/quotas> (referer: https://developers.google.com/console/help/new/)
+2015-03-19 11:32:45-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/directory/v1/guides/migrate> (referer: https://developers.google.com/google-apps/provisioning/)
+2015-03-19 11:32:45-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gmail/markup/reference/types/Thing> (referer: https://developers.google.com/gmail/markup/reference/types/Intangible)
+2015-03-19 11:32:45-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/admin-api-list> (referer: https://developers.google.com/google-apps/provisioning/)
+2015-03-19 11:32:46-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/admin-api-terms> (referer: https://developers.google.com/google-apps/provisioning/)
+2015-03-19 11:32:46-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/admin-apis> (referer: https://developers.google.com/google-apps/provisioning/)
+2015-03-19 11:32:46-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/google-apps/calendar/v2/developers_guide_protocol> (referer: https://developers.google.com/gdata/client-cs)
+2015-03-19 11:32:46-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/google-apps/calendar/v2/developers_guide_protocol>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:47-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/webmaster-tools/docs/1.0/reference> (referer: https://developers.google.com/webmaster-tools/docs/2.0/developers_guide)
+2015-03-19 11:32:47-0700 [EasterSpider] DEBUG: Filtered offsite request to 'ftp.ics.uci.edu': <GET http://ftp.ics.uci.edu/pub/websoft/wwwstat/country-codes.txt>
+2015-03-19 11:32:47-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.loc.gov': <GET http://www.loc.gov/standards/iso639-2/php/code_list.php>
+2015-03-19 11:32:47-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/apis/accounts/docs/AuthForInstalledApps> (referer: https://developers.google.com/webmaster-tools/docs/2.0/developers_guide_java)
+2015-03-19 11:32:47-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/apis/accounts/docs/AuthForInstalledApps>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:47-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/apis/accounts/AuthForWebApps> (referer: https://developers.google.com/webmaster-tools/docs/2.0/developers_guide_java)
+2015-03-19 11:32:47-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/apis/accounts/AuthForWebApps>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:48-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/accounts/AuthForWebApps> (referer: https://developers.google.com/webmaster-tools/docs/2.0/developers_guide_java)
+2015-03-19 11:32:48-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/accounts/AuthForWebApps>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:48-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/webmaster-tools/docs/1.0/developers_guide_java> (referer: https://developers.google.com/webmaster-tools/docs/2.0/developers_guide)
+2015-03-19 11:32:48-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/console/help/new#usingkeys> from <GET https://developers.google.com/console/help/using-keys>
+2015-03-19 11:32:48-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/explorer-help/forum> (referer: https://developers.google.com/explorer-help/)
+2015-03-19 11:32:49-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gadgets/docs/basic> from <GET https://developers.google.com/gadgets/docs/oauth>
+2015-03-19 11:32:49-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/docs/json> from <GET https://developers.google.com/gdata/json>
+2015-03-19 11:32:49-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/finance/> from <GET https://developers.google.com/finance/docs/1.0/developers_guide_js>
+2015-03-19 11:32:50-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/contacts/v1/developers_guide_js> (referer: https://developers.google.com/gdata/samples)
+2015-03-19 11:32:50-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.mozilla.org': <GET http://www.mozilla.org/projects/security/components/same-origin.html>
+2015-03-19 11:32:50-0700 [EasterSpider] DEBUG: Filtered offsite request to 'developer.mozilla.org': <GET http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Error>
+2015-03-19 11:32:50-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/admin-sdk/directory/v1/reference/users> from <GET https://developers.google.com/admin-sdk/directory/v1/reference/users/>
+2015-03-19 11:32:51-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/admin-sdk/directory/v1/revision-history> (referer: https://developers.google.com/admin-sdk/directory/v1/guides/migrate)
+2015-03-19 11:32:51-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/> (referer: https://developers.google.com/google-apps/admin-api-list)
+2015-03-19 11:32:51-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/reseller/> from <GET https://developers.google.com/google-apps/reseller/>
+2015-03-19 11:32:51-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/groups-settings/> from <GET https://developers.google.com/google-apps/groups-settings>
+2015-03-19 11:32:52-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/google-apps/admin-audit/> from <GET https://developers.google.com/google-apps/admin-audit>
+2015-03-19 11:32:52-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/webmaster-tools/docs/1.0/www.google.com/support/webmasters/bin/answer.py?answer=62399> (referer: https://developers.google.com/webmaster-tools/docs/1.0/reference)
+2015-03-19 11:32:52-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/webmaster-tools/docs/1.0/www.google.com/support/webmasters/bin/answer.py?answer=62399>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:52-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/webmaster-tools/docs/1.0/images.google.com/imagelabeler> (referer: https://developers.google.com/webmaster-tools/docs/1.0/reference)
+2015-03-19 11:32:52-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/webmaster-tools/docs/1.0/images.google.com/imagelabeler>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:53-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/webmaster-tools/docs/1.0/> (referer: https://developers.google.com/webmaster-tools/docs/1.0/reference)
+2015-03-19 11:32:53-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/webmaster-tools/docs/1.0/>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:53-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/reporting/report-visualization/> (referer: https://developers.google.com/google-apps/admin-api-list)
+2015-03-19 11:32:53-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/reporting/> (referer: https://developers.google.com/google-apps/admin-api-list)
+2015-03-19 11:32:54-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/profiles/> (referer: https://developers.google.com/google-apps/admin-api-list)
+2015-03-19 11:32:54-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gadgets/docs/basic> (referer: https://developers.google.com/gdata/samples)
+2015-03-19 11:32:54-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/groups-settings/> from <GET https://developers.google.com/google-apps/groups-settings/>
+2015-03-19 11:32:55-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/finance/> (referer: https://developers.google.com/gdata/samples)
+2015-03-19 11:32:55-0700 [EasterSpider] DEBUG: Filtered offsite request to 'googlecode.blogspot.com': <GET http://googlecode.blogspot.com/2011/05/spring-cleaning-for-some-of-our-apis.html>
+2015-03-19 11:32:55-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/groups-migration/> from <GET https://developers.google.com/google-apps/groups-migration/>
+2015-03-19 11:32:55-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gdata/docs/js-terms> (referer: https://developers.google.com/google-apps/contacts/v1/developers_guide_js)
+2015-03-19 11:32:55-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gdata/jsdoc/2.2/> (referer: https://developers.google.com/google-apps/contacts/v1/developers_guide_js)
+2015-03-19 11:32:55-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/admin-sdk/directory/v1/reference/groups/list> from <GET https://developers.google.com/admin-sdk/directory/v1/reference/groups/list.html>
+2015-03-19 11:32:56-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/faq> (referer: https://developers.google.com/secure-data-connector/)
+2015-03-19 11:32:56-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials/spreadsheets> (referer: https://developers.google.com/secure-data-connector/)
+2015-03-19 11:32:56-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials/appengine> (referer: https://developers.google.com/secure-data-connector/)
+2015-03-19 11:32:56-0700 [EasterSpider] DEBUG: Filtered offsite request to 'localhost': <GET http://localhost:8080/hello>
+2015-03-19 11:32:56-0700 [EasterSpider] DEBUG: Filtered offsite request to 'appengine.google.com': <GET https://appengine.google.com/>
+2015-03-19 11:32:57-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials/visualizations> (referer: https://developers.google.com/secure-data-connector/)
+2015-03-19 11:32:57-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials/gadgets> (referer: https://developers.google.com/secure-data-connector/)
+2015-03-19 11:32:57-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials/> from <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials>
+2015-03-19 11:32:57-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/debug> (referer: https://developers.google.com/secure-data-connector/)
+2015-03-19 11:32:57-0700 [EasterSpider] DEBUG: Filtered offsite request to 'logging.apache.org': <GET http://logging.apache.org/log4j/>
+2015-03-19 11:32:58-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/interactive/docs/querylanguage> (referer: https://developers.google.com/google-apps/reporting/report-visualization/)
+2015-03-19 11:32:58-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.icu-project.org': <GET http://www.icu-project.org/apiref/icu4j/com/ibm/icu/text/SimpleDateFormat.html>
+2015-03-19 11:32:58-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/google-apps/profiles/reference> from <GET https://developers.google.com/google-apps/profiles/reference.html>
+2015-03-19 11:32:58-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/google-apps/reporting/:http://www.google.com/support/a/bin/request.py> (referer: https://developers.google.com/google-apps/reporting/)
+2015-03-19 11:32:58-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/google-apps/reporting/:http://www.google.com/support/a/bin/request.py>: HTTP status code is not handled or not allowed
+2015-03-19 11:32:58-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/google-apps/profiles/support> (referer: https://developers.google.com/google-apps/profiles/)
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gadgets/docs/terms> (referer: https://developers.google.com/gadgets/docs/basic)
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gadgets/docs/community> (referer: https://developers.google.com/gadgets/docs/basic)
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.oecd.org': <GET http://www.oecd.org/document/42/0,2340,en_2649_34255_28863271_1_1_1_1,00.html>
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.bbbonline.org': <GET http://www.bbbonline.org/UnderstandingPrivacy/PMRC/createpolicy.asp>
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.chillingeffects.org': <GET http://www.chillingeffects.org/fairuse/faq.cgi>
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.eff.org': <GET http://www.eff.org/>
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gadgets/docs/migration> (referer: https://developers.google.com/gadgets/docs/basic)
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'docs.jquery.com': <GET http://docs.jquery.com/Effects/toggle>
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'jqueryui.com': <GET http://jqueryui.com/>
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'script.aculo.us': <GET http://script.aculo.us/>
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'mootools.net': <GET http://mootools.net/>
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'developer.yahoo.com': <GET http://developer.yahoo.com/yui/>
+2015-03-19 11:32:59-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.extjs.com': <GET http://www.extjs.com/>
+2015-03-19 11:33:00-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/client-js-terms> from <GET https://developers.google.com/gdata/client-js-terms.html>
+2015-03-19 11:33:00-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/jsdoc/2.2/allclasses-frame> from <GET https://developers.google.com/gdata/jsdoc/2.2/allclasses-frame.html>
+2015-03-19 11:33:00-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/gadgets/docs/reference/> from <GET https://developers.google.com/gadgets/docs/reference>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gadgets/docs/xml_reference> (referer: https://developers.google.com/gadgets/docs/basic)
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Filtered offsite request to 'mail.google.com': <GET http://mail.google.com/mail/signup>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Filtered offsite request to 'oauth.net': <GET http://oauth.net/core/1.0/>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials/contacts.csv> (referer: https://developers.google.com/secure-data-connector/docs/1.3/tutorials/spreadsheets)
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/installing> (referer: https://developers.google.com/secure-data-connector/docs/1.3/tutorials/spreadsheets)
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.debian.org': <GET http://www.debian.org/>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Filtered offsite request to 'ubuntu.com': <GET http://ubuntu.com/>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.java.com': <GET http://www.java.com/en/download/manual.jsp>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.pathname.com': <GET http://www.pathname.com/fhs/>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.redhat.com': <GET http://www.redhat.com/rhel>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.centos.org': <GET http://www.centos.org/>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.fedora.org': <GET http://www.fedora.org/>
+2015-03-19 11:33:01-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials/planets.txt> (referer: https://developers.google.com/secure-data-connector/docs/1.3/tutorials/visualizations)
+2015-03-19 11:33:02-0700 [EasterSpider] INFO: Crawled 139 pages (at 139 pages/min), scraped 0 items (at 0 items/min)
+2015-03-19 11:33:02-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials/> (referer: https://developers.google.com/secure-data-connector/)
+2015-03-19 11:33:02-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/secure-data-connector/docs/1.3/tutorials/sample_visualization.xml> (referer: https://developers.google.com/secure-data-connector/docs/1.3/tutorials/visualizations)
+2015-03-19 11:33:03-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://cloud.google.com/appengine/docs/python/urlfetch/overview> from <GET https://developers.google.com/appengine/docs/python/urlfetch/overview>
+2015-03-19 11:33:03-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/terms> (referer: https://developers.google.com/chart/interactive/docs/querylanguage)
+2015-03-19 11:33:03-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/interactive/docs/security_privacy> (referer: https://developers.google.com/chart/interactive/docs/querylanguage)
+2015-03-19 11:33:04-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/infographics/> (referer: https://developers.google.com/chart/interactive/docs/querylanguage)
+2015-03-19 11:33:04-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/image/> (referer: https://developers.google.com/chart/interactive/docs/querylanguage)
+2015-03-19 11:33:04-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/igoogle-themes/programpolicy> (referer: https://developers.google.com/gadgets/docs/terms)
+2015-03-19 11:33:04-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.gstatic.com': <GET http://www.gstatic.com/ig/themes/third_party/Romain_Guy/SeaOfFog.xml>
+2015-03-19 11:33:04-0700 [EasterSpider] DEBUG: Filtered offsite request to 'igoogledeveloper.blogspot.com': <GET http://igoogledeveloper.blogspot.com/2012/07/update-on-igoogle.html>
+2015-03-19 11:33:04-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gadgets/docs/legacy/reference> from <GET https://developers.google.com/gadgets/docs/legacy/reference.html>
+2015-03-19 11:33:05-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/gdata/client-js-terms> (referer: https://developers.google.com/gdata/docs/js-terms)
+2015-03-19 11:33:05-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/gdata/client-js-terms>: HTTP status code is not handled or not allowed
+2015-03-19 11:33:05-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gdata/jsdoc/2.2/allclasses-frame> (referer: https://developers.google.com/gdata/jsdoc/2.2/)
+2015-03-19 11:33:05-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gadgets/docs/reference/> (referer: https://developers.google.com/gadgets/docs/basic)
+2015-03-19 11:33:05-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.opensocial.org': <GET http://www.opensocial.org/page/specs-1>
+2015-03-19 11:33:05-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.quirksmode.org': <GET http://www.quirksmode.org/dom/w3c_cssom.html>
+2015-03-19 11:33:06-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/igoogle/docs/igoogledevguide> from <GET https://developers.google.com/igoogle/docs/igoogledevguide.html>
+2015-03-19 11:33:06-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/themes/programpolicy> from <GET https://developers.google.com/themes/programpolicy.html>
+2015-03-19 11:33:06-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/igoogle/programpolicy> from <GET https://developers.google.com/igoogle/programpolicy.html>
+2015-03-19 11:33:07-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gadgets/docs/terms> from <GET https://developers.google.com/gadgets/docs/terms.html>
+2015-03-19 11:33:07-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/igoogle/programpolicy> (referer: https://developers.google.com/gadgets/docs/terms)
+2015-03-19 11:33:08-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/interactive/docs/release_notes> (referer: https://developers.google.com/chart/interactive/docs/querylanguage)
+2015-03-19 11:33:08-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://cloud.google.com/appengine/docs/python/urlfetch/> from <GET https://cloud.google.com/appengine/docs/python/urlfetch/overview>
+2015-03-19 11:33:08-0700 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2015-03-19 11:33:08-0700 [EasterSpider] INFO: Closing spider (shutdown)
+2015-03-19 11:33:08-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/interactive/docs/user_gallery> (referer: https://developers.google.com/chart/interactive/docs/querylanguage)
+2015-03-19 11:33:08-0700 [EasterSpider] DEBUG: Filtered offsite request to 'failrailsg.appspot.com': <GET http://failrailsg.appspot.com/major-disruptions.html>
+2015-03-19 11:33:09-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/chart-api-list> (referer: https://developers.google.com/chart/terms)
+2015-03-19 11:33:09-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/interactive/faq> (referer: https://developers.google.com/chart/interactive/docs/querylanguage)
+2015-03-19 11:33:09-0700 [EasterSpider] DEBUG: Filtered offsite request to 'google-visualization.appspot.com': <GET http://google-visualization.appspot.com/python/>
+2015-03-19 11:33:09-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.salesforce.com': <GET http://www.salesforce.com/>
+2015-03-19 11:33:09-0700 [EasterSpider] DEBUG: Filtered offsite request to 'jsfiddle.net': <GET http://jsfiddle.net/>
+2015-03-19 11:33:09-0700 [EasterSpider] DEBUG: Filtered offsite request to 'caniuse.com': <GET http://caniuse.com/>
+2015-03-19 11:33:09-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.macromedia.com': <GET http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager02.html>
+2015-03-19 11:33:09-0700 [EasterSpider] DEBUG: Redirecting (302) to <GET https://developers.google.com/chart/image/> from <GET https://developers.google.com/chart/image>
+2015-03-19 11:33:09-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/chart/image/docs/chart_wizard> (referer: https://developers.google.com/chart/image/)
+2015-03-19 11:33:10-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/gadgets/docs/legacy/reference> (referer: https://developers.google.com/gadgets/docs/community)
+2015-03-19 11:33:10-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/gadgets/docs/legacy/reference>: HTTP status code is not handled or not allowed
+2015-03-19 11:33:10-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/igoogle-themes/docs/terms> (referer: https://developers.google.com/igoogle-themes/programpolicy)
+2015-03-19 11:33:10-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/igoogle-themes/docs/community> (referer: https://developers.google.com/igoogle-themes/programpolicy)
+2015-03-19 11:33:10-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/jsdoc/2.2/google/gdata/Who> from <GET https://developers.google.com/gdata/jsdoc/2.2/google/gdata/Who.html>
+2015-03-19 11:33:11-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/igoogle/docs/igoogledevguide> (referer: https://developers.google.com/gadgets/docs/community)
+2015-03-19 11:33:11-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/themes/programpolicy> (referer: https://developers.google.com/gadgets/docs/community)
+2015-03-19 11:33:11-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/themes/programpolicy>: HTTP status code is not handled or not allowed
+2015-03-19 11:33:11-0700 [EasterSpider] DEBUG: Filtered offsite request to 'fusion.google.com': <GET http://fusion.google.com/add?moduleurl=http%3A%2F%2Fwww.google.com%2Fig%2Fmodules%2Fcodechecker%2Fcodechecker.xml&source=atgs>
+2015-03-19 11:33:11-0700 [EasterSpider] DEBUG: Filtered offsite request to 'www.counttonine.com': <GET http://www.counttonine.com/google-sudoku.xml>
+2015-03-19 11:33:11-0700 [EasterSpider] DEBUG: Crawled (404) <GET https://developers.google.com/gadgets/docs/reference/gadgets.io.ProxyUrlRequestParameters> (referer: https://developers.google.com/gadgets/docs/reference/)
+2015-03-19 11:33:11-0700 [EasterSpider] DEBUG: Ignoring response <404 https://developers.google.com/gadgets/docs/reference/gadgets.io.ProxyUrlRequestParameters>: HTTP status code is not handled or not allowed
+2015-03-19 11:33:11-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/jsdoc/2.2/google/gdata/Where> from <GET https://developers.google.com/gdata/jsdoc/2.2/google/gdata/Where.html>
+2015-03-19 11:33:12-0700 [EasterSpider] DEBUG: Redirecting (301) to <GET https://developers.google.com/gdata/jsdoc/2.2/google/gdata/When> from <GET https://developers.google.com/gdata/jsdoc/2.2/google/gdata/When.html>
+2015-03-19 11:33:12-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://developers.google.com/gadgets/docs/spec> (referer: https://developers.google.com/igoogle/programpolicy)
+2015-03-19 11:33:12-0700 [EasterSpider] DEBUG: Filtered offsite request to 'opensocial-resources.googlecode.com': <GET http://opensocial-resources.googlecode.com/svn/spec/0.8/gadgets/gadgets-extended.xsd>
+2015-03-19 11:33:13-0700 [EasterSpider] DEBUG: Crawled (200) <GET https://cloud.google.com/appengine/docs/python/urlfetch/> (referer: https://developers.google.com/secure-data-connector/docs/1.3/debug)
+2015-03-19 11:33:13-0700 [EasterSpider] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 78080,
+	 'downloader/request_count': 248,
+	 'downloader/request_method_count/GET': 248,
+	 'downloader/response_bytes': 8048766,
+	 'downloader/response_count': 248,
+	 'downloader/response_status_count/200': 145,
+	 'downloader/response_status_count/301': 58,
+	 'downloader/response_status_count/302': 27,
+	 'downloader/response_status_count/404': 18,
+	 'dupefilter/filtered': 6123,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2015, 3, 19, 18, 33, 13, 331415),
+	 'log_count/DEBUG': 416,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 9,
+	 'offsite/domains': 147,
+	 'offsite/filtered': 4203,
+	 'request_depth_max': 12,
+	 'response_received_count': 163,
+	 'scheduler/dequeued': 248,
+	 'scheduler/dequeued/memory': 248,
+	 'scheduler/enqueued': 2902,
+	 'scheduler/enqueued/memory': 2902,
+	 'spider_exceptions/SGMLParseError': 1,
+	 'start_time': datetime.datetime(2015, 3, 19, 18, 32, 2, 331869)}
+2015-03-19 11:33:13-0700 [EasterSpider] INFO: Spider closed (shutdown)
